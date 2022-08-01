@@ -82,8 +82,8 @@ header {
     color: #0088a9
 }
 
-#text_containter{
-    text-align: center;
+#text_container{
+    text-align: left;
 }
 
 .contact_image{
@@ -110,10 +110,14 @@ header {
         width: 90%;
         justify-self: center;
     }
+
+    #text_container{
+        text-align: center;
+    }
 }
 
 @media(max-width:530px) {
-    body{
+    *{
         font-size: 10px;
         padding: none;
     }
@@ -133,6 +137,10 @@ header {
         width: 100%;
         padding: none;
         padding-left: none;
+    }
+
+    #text_container{
+        text-align: center;
     }
 
     .main_image{
