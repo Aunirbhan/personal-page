@@ -86,6 +86,18 @@ header {
     text-align: left;
 }
 
+#text_container_contact{
+    text-align: center;
+}
+
+.answer_contact{
+    text-align: center;
+}
+
+.paragraph_descriptors_contact{
+    text-align: center;
+}
+
 .contact_image{
     display: block;
     margin-left: auto;
@@ -112,7 +124,7 @@ header {
     }
 
     #text_container{
-        text-align: center;
+        text-align: left;
     }
 }
 
@@ -140,7 +152,7 @@ header {
     }
 
     #text_container{
-        text-align: center;
+        text-align: left;
     }
 
     .main_image{
