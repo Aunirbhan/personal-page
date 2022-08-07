@@ -14,6 +14,13 @@ li, a, button,pre,p,h1,h2,h3 {
     text-decoration: none;
 }
 
+#homeImageID{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
 #body_container{
     display: flex;
     justify-content: center;
@@ -116,7 +123,7 @@ header {
 
 .social-menu ul {
     position: absolute;
-    top: 50%;
+    top: 120%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 0;
@@ -135,9 +142,7 @@ header {
     line-height: 50px;
     transition: .5s;
 }
-/* .social-menu ul li .fa:hover {
-    color: #ffffff;
-} */
+
 
 i {
     position: relative;
@@ -196,7 +201,7 @@ i:hover {
         text-align: left;
     }
     .social-menu ul {
-        top: 45%;
+        top: 73%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -249,15 +254,25 @@ i:hover {
         text-align: center;
     }
     .social-menu ul {
-        top: 60%;
+        top: 90%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
 }
 
 @media(max-width:400px){
+    #mainHeader{
+        text-align: center;
+        font-size: 40px;
+    }
+    #homeImageID{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
     .social-menu ul {
-        top: 70%;
+        top: 90%;
         left: 50%;
         transform: translate(-50%, -50%);
     }

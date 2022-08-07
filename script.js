@@ -1,5 +1,9 @@
 const mainHeader = document.getElementById("mainHeader");
 const mainHeaderContainer = document.getElementById("mainHeaderContainer");
+const imageOne = document.getElementById("exImages1");
+const imageTwo = document.getElementById("exImages2");
+const imageThree = document.getElementById("exImages3");
+
 
 mainHeader.onmouseover = function(){
     mouseOver();
