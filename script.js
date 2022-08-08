@@ -1,9 +1,6 @@
 const mainHeader = document.getElementById("mainHeader");
 const mainHeaderContainer = document.getElementById("mainHeaderContainer");
-const imageOne = document.getElementById("exImages1");
-const imageTwo = document.getElementById("exImages2");
-const imageThree = document.getElementById("exImages3");
-
+const welcome = document.getElementById("welcome");
 
 mainHeader.onmouseover = function(){
     mouseOver();
@@ -49,3 +46,7 @@ function fadeOutOnScroll(element) {
   
   window.addEventListener('scroll', scrollHandler);
   
+welcome.onclick = function(){
+  welcome.style.fontSize = "25px";
+  welcome.style.color = "#0088a9";
+}
