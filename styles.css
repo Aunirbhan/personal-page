@@ -25,7 +25,8 @@ li, a, button,pre,p,h1,h2,h3 {
 }
 
 pre{
-    font-size: 20px;
+    font-size: 25px;
+    padding-left: 10% ;
 }
 
 .paragraph_descriptors{
