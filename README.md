@@ -4,11 +4,11 @@
 
 ### Set up
 
-- [ ] Complete the [Project Planning Document](https://docs.google.com/document/d/1nANUbAc373bp_IAXirH-qnmjYdrmP88ZTi3vADfvemE/edit#heading=h.mw7c7ymg9fig).
+- [x] Complete the [Project Planning Document](https://docs.google.com/document/d/1nANUbAc373bp_IAXirH-qnmjYdrmP88ZTi3vADfvemE/edit#heading=h.mw7c7ymg9fig).
 
 - [x] Go to the repository.
 
-- [ ] Fork this repository to your GitHub account.
+- [x] Fork this repository to your GitHub account.
 
 - [ ] Create a new project on Glitch that imports your repo from GitHub.
 
